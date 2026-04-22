@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- JUDUL - Jarak atas sangat besar agar turun dari status bar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORM INPUT DATA"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#333333"
+            tools:ignore="HardcodedText" />
+
+        <!-- Input 1 -->
+        <EditText
+            android:id="@+id/etInput1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Masukkan teks atau angka"
+            android:background="@android:drawable/editbox_background"
+            android:paddingLeft="15dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <!-- Input 2 - Ditambah Margin Top 40dp -->
+        <EditText
+            android:id="@+id/etInput2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:hint="Masukkan input kedua"
+            android:background="@android:drawable/editbox_background"
+            android:paddingLeft="15dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <!-- Angka 1 - Ditambah Margin Top 40dp -->
+        <EditText
+            android:id="@+id/etAngka1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:hint="Masukkan angka pertama"
+            android:inputType="number"
+            android:background="@android:drawable/editbox_background"
+            android:paddingLeft="15dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <!-- Angka 2 - Ditambah Margin Top 40dp -->
+        <EditText
+            android:id="@+id/etAngka2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:hint="Masukkan angka kedua"
+            android:inputType="number"
+            android:background="@android:drawable/editbox_background"
+            android:paddingLeft="15dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <!-- Tombol Proses - Jarak dibuat 60dp agar sangat turun ke bawah -->
+        <Button
+            android:id="@+id/btnProses"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:text="PROSES SEKARANG"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <!-- Hasil - Jarak dibuat 60dp ke bawah dari tombol -->
+        <TextView
+            android:id="@+id/tvHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="80dp"
+            android:background="#FFFFFF"
+            android:padding="25dp"
+            android:text="Hasil akan tampil di sini"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
