@@ -14,9 +14,10 @@ A simple Android app built with Kotlin to input text and numbers, then process a
 - Real-time result display
 
 ## 🧠 How It Works
-1. User fills all input fields
-2. Click **PROSES SEKARANG**
-3. App processes data and displays results
+1. User enters text and numeric data
+2. App validates the input fields
+3. Data is processed
+4. Results are displayed instantly
 
 ## 🛠️ Tech Stack
 - Kotlin
