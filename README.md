@@ -1,4 +1,4 @@
-# kotlin-mobile-development-input-data-app
+# Kotlin Mobile-Development Input Data App
 Aplikasi ini merupakan form input data sederhana yang dibuat menggunakan Kotlin di Android Studio. Pengguna dapat memasukkan dua data teks dan dua angka, kemudian aplikasi akan memproses input tersebut dan menampilkan hasilnya dalam berbagai bentuk operasi.
 
 Fitur Utama
