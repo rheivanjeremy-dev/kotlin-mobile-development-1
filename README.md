@@ -1,33 +1,27 @@
-# Kotlin Mobile-Development Input Data App
-Aplikasi ini merupakan form input data sederhana yang dibuat menggunakan Kotlin di Android Studio. Pengguna dapat memasukkan dua data teks dan dua angka, kemudian aplikasi akan memproses input tersebut dan menampilkan hasilnya dalam berbagai bentuk operasi.
+# 📱 Kotlin Input Data App
 
-Fitur Utama
--Input teks (2 field)
--Input angka (2 field)
--Validasi input (tidak boleh kosong)
--Operasi aritmatika:
-  -Penjumlahan
-  -Pengurangan
-  -Perkalian
--Pembagian (dengan penanganan pembagian nol)
--Penggabungan teks (string)
--Menampilkan hasil secara langsung setelah tombol ditekan
+A simple Android app built with Kotlin to input text and numbers, then process and display the results.
 
-Cara Kerja
-1.Pengguna mengisi semua field input.
-2.Saat tombol "PROSES SEKARANG" ditekan:
- -Data teks akan digabung.
- -Data angka akan dihitung menggunakan operasi matematika dasar.
-3.Hasil ditampilkan pada bagian bawah aplikasi.
-4.Jika ada input kosong, akan muncul pesan peringatan.
+## ✨ Features
+- Input text (2 fields)
+- Input numbers (2 fields)
+- Basic arithmetic operations:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+- Input validation
+- Real-time result display
 
-Teknologi yang Digunakan
-Bahasa: Kotlin
-Platform: Android
-UI: XML Layout (ScrollView, LinearLayout, EditText, Button, TextView)
+## 🧠 How It Works
+1. User fills all input fields
+2. Click **PROSES SEKARANG**
+3. App processes data and displays results
 
-Tujuan Project
--Mempelajari dasar pembuatan UI Android
--Memahami cara mengambil input dari pengguna
--Menggunakan event listener (Button Click)
--Menerapkan logika pemrograman sederhana
+## 🛠️ Tech Stack
+- Kotlin
+- Android Studio
+- XML Layout
+
+## 📸 Screenshot
+![App Screenshot](Screenshot%202026-04-22%20204005.png)
